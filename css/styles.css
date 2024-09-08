@@ -1,4 +1,4 @@
-/* Body styles */
+/* Base styles for all pages */
 body {
 	background-color: #111;
 	color: #00ffcc;
@@ -16,7 +16,7 @@ body {
 	background-position: 0 0, 25px 25px;
 }
 
-/* Header styles */
+/* Header styles for portfolio */
 header {
 	background-color: #333;
 	color: #fff;
@@ -40,7 +40,7 @@ nav ul li a {
 	text-decoration: none;
 }
 
-/* Main content styles */
+/* Main content section */
 main {
 	padding: 2em;
 }
@@ -66,9 +66,9 @@ footer {
 	bottom: 0;
 }
 
-/* Glitch text effect */
+/* Glitch text for special effects */
 .glitch-text {
-	font-family: "VT323", monospace; /* Retro font */
+	font-family: "VT323", monospace;
 	font-size: 3rem;
 	position: relative;
 	color: #00ffcc;
@@ -87,7 +87,7 @@ footer {
 	}
 }
 
-/* Grid background */
+/* Grid background (optional for Easter Egg page or landing page) */
 .grid {
 	position: absolute;
 	top: 50%;
