@@ -6,6 +6,30 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<title>🐷 Twitch Stream Easter Egg 🐷</title>
 		<link rel="stylesheet" href="styles.css" />
+		<style>
+			body {
+				background-color: #111;
+				color: #00ffcc;
+				text-align: center;
+				font-family: "VT323", monospace;
+			}
+			.glitch {
+				font-size: 3rem;
+				text-shadow: 1px 1px #ff0000, -1px -1px #00ffcc;
+				animation: glitch 1s infinite;
+			}
+			@keyframes glitch {
+				0% {
+					text-shadow: 2px 2px #ff0000, -2px -2px #00ffcc;
+				}
+				50% {
+					text-shadow: -2px -2px #ff0000, 2px 2px #00ffcc;
+				}
+				100% {
+					text-shadow: 1px 1px #ff0000, -1px -1px #00ffcc;
+				}
+			}
+		</style>
 	</head>
 	<body>
 		<h1 class="glitch-text">You found the Easter Egg! 🐷</h1>
