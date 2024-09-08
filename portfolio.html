@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Portfolio | Glitchy Retro</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<h1 class="glitch-text">Welcome to My Portfolio</h1>
+		</header>
+
+		<section id="about-me">
+			<h2>About Me 🐷</h2>
+			<p>
+				Hi! I'm a software developer with a background in animation, AI, NLP,
+				and gaming. I love to explore the intersection of technology and
+				creativity. When I'm not coding, you can find me streaming on Twitch or
+				working on new animations!
+			</p>
+		</section>
+
+		<section id="projects">
+			<h2>Projects</h2>
+			<div class="project">
+				<h3>Project 1: AI Chatbot</h3>
+				<p>
+					An intelligent chatbot powered by natural language processing and
+					machine learning.
+				</p>
+				<a href="https://github.com/yourusername/project1">View on GitHub</a>
+			</div>
+			<div class="project">
+				<h3>Project 2: Animation Rotoscope Tool</h3>
+				<p>
+					A powerful tool for animators to streamline the rotoscoping process.
+				</p>
+				<a href="https://github.com/yourusername/project2">View on GitHub</a>
+			</div>
+		</section>
+
+		<script>
+			// Konami Code Easter Egg
+			const konamiCode = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
+			let konamiIndex = 0;
+
+			document.addEventListener("keydown", function (e) {
+				if (e.keyCode === konamiCode[konamiIndex]) {
+					konamiIndex++;
+					if (konamiIndex === konamiCode.length) {
+						alert("Easter Egg unlocked! 🐷 Redirecting...");
+						window.location.href = "easter-egg.html";
+					}
+				} else {
+					konamiIndex = 0;
+				}
+			});
+		</script>
+	</body>
+</html>
